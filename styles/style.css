@@ -390,7 +390,7 @@ main .life .all-life .story > div p {
 }
 
 main .work {
-  height: 280vh;
+  height: 180vh;
 }
 
 main .work .header {
@@ -402,7 +402,7 @@ main .work .header {
 
 main .card-projects {
   width: 100%;
-  height: 140vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
