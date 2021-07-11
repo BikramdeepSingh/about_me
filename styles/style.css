@@ -4,7 +4,7 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
   outline: 0;
 }
@@ -29,7 +29,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-transition: all 0.75s ease-in-out;
   transition: all 0.75s ease-in-out;
 }
@@ -65,8 +65,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0 10rem;
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
@@ -84,11 +84,11 @@ nav .logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 nav .logo a {
@@ -96,7 +96,7 @@ nav .logo a {
   text-decoration: none;
   font-weight: bold;
   font-size: 35px;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
 }
 
 nav .nav-links {
@@ -106,11 +106,11 @@ nav .nav-links {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 nav .nav-links a {
@@ -124,15 +124,16 @@ nav .nav-links a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-nav .nav-links a::before, nav .nav-links a::after {
-  content: '';
+nav .nav-links a::before,
+nav .nav-links a::after {
+  content: "";
   position: absolute;
   z-index: -1;
   bottom: 0;
@@ -141,19 +142,20 @@ nav .nav-links a::before, nav .nav-links a::after {
   height: 0.5px;
   background-color: var(--text-color);
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-nav .nav-links a:hover::before, nav .nav-links a:hover::after {
+nav .nav-links a:hover::before,
+nav .nav-links a:hover::after {
   height: 1.5px;
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
   -webkit-transform-origin: right;
-          transform-origin: right;
+  transform-origin: right;
 }
 
 nav .nav-links #theme {
@@ -163,11 +165,11 @@ nav .nav-links #theme {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -199,11 +201,11 @@ main .home .hero .text {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .home .hero .text .text-container {
@@ -213,15 +215,15 @@ main .home .hero .text .text-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
+  -ms-flex-align: left;
+  align-items: left;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 main .home .hero .text .text-container p {
@@ -244,11 +246,11 @@ main .home .hero .text .text-container .cta {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 30px;
 }
 
@@ -279,11 +281,11 @@ main .home .hero .photo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .home .hero .photo .card-profile {
@@ -293,18 +295,18 @@ main .home .hero .photo .card-profile {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .home .hero .photo .card-profile img {
   width: 80%;
   height: 80%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 main .life {
@@ -333,12 +335,12 @@ main .life .all-life .img-section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 15%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .life .all-life .img-section .header {
@@ -371,11 +373,11 @@ main .life .all-life .story {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .life .all-life .story > div {
@@ -400,17 +402,17 @@ main .work .header {
 
 main .card-projects {
   width: 100%;
-  height: 240vh;
+  height: 140vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 15px;
   margin-top: 10vh;
 }
@@ -432,7 +434,7 @@ main .card-projects .card {
 
 main .card-projects .card:hover {
   -webkit-transform: scale(1.025);
-          transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 main .card-projects .card .img-pro {
@@ -442,11 +444,11 @@ main .card-projects .card .img-pro {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .card-projects .card .img-pro img {
@@ -454,7 +456,7 @@ main .card-projects .card .img-pro img {
   width: 95%;
   height: 90%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: contain;
 }
 
 main .card-projects .card .desc-pro {
@@ -465,8 +467,8 @@ main .card-projects .card .desc-pro {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 main .card-projects .card .desc-pro .name {
@@ -476,11 +478,11 @@ main .card-projects .card .desc-pro .name {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .card-projects .card .desc-pro .about-pro {
@@ -502,11 +504,11 @@ main .card-projects .card .desc-pro .redirect {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 15%;
 }
 
@@ -551,7 +553,8 @@ main .contact .options .form-sec {
   border-radius: 25px;
 }
 
-main .contact .options .form-sec:hover, main .contact .options .form-sec:focus {
+main .contact .options .form-sec:hover,
+main .contact .options .form-sec:focus {
   background-color: var(--light-shade);
 }
 
@@ -565,8 +568,8 @@ main .contact .options .form-sec form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 main .contact .options .form-sec form .header-mes {
@@ -586,14 +589,14 @@ main .contact .options .form-sec form .name {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 15px;
 }
 
 main .contact .options .form-sec form .name input {
   padding: 7px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   background: var(--light-shade);
   color: var(--text-color);
   border: 1px solid var(--text-color);
@@ -609,14 +612,14 @@ main .contact .options .form-sec form .email {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 15px;
 }
 
 main .contact .options .form-sec form .email input {
   padding: 7px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   background: var(--light-shade);
   color: var(--text-color);
   border: 1px solid var(--text-color);
@@ -632,14 +635,14 @@ main .contact .options .form-sec form .message {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 15px;
 }
 
 main .contact .options .form-sec form .message textarea {
   padding: 5px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   border-radius: 5px;
   background: var(--light-shade);
   color: var(--text-color);
@@ -656,7 +659,7 @@ main .contact .options .form-sec form .submit {
 
 main .contact .options .form-sec form .submit input {
   padding: 0.5rem 1rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 15px;
   background-color: transparent;
   color: var(--text-color);
@@ -680,8 +683,8 @@ main .contact .options .socials {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-radius: 25px;
   -webkit-transition: background 250ms ease-in-out;
   transition: background 250ms ease-in-out;
@@ -695,8 +698,8 @@ main .contact .options .socials .social-icons {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 main .contact .options .socials .social-icons .header {
@@ -706,11 +709,11 @@ main .contact .options .socials .social-icons .header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main .contact .options .socials .social-icons .header h1 {
@@ -724,11 +727,11 @@ main .contact .options .socials .social-icons .links {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   gap: 35px;
 }
 
@@ -742,7 +745,7 @@ main .contact .options .socials .social-icons .links i {
 
 main .contact .options .socials .social-icons .links i:hover {
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
   border-radius: 50%;
 }
 
