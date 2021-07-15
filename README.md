@@ -1,3 +1,3 @@
 # about me
 
-A small description of my life.
+A small description of my life ;)
